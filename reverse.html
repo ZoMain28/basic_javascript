@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reverse</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	var a=prompt("Enter the variable");
+	var b=0,c=0,temp=0;
+	document.write("Variable is ", a +"<br>");
+	b=a;
+	while(a>0) {
+		c=a%10;
+		a=parseInt(a/10);
+		temp=temp*10+c;
+	}
+	document.write("Reverse of the variable is ", temp);
+
+</script>
+
+</body>
+</html>
